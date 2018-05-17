@@ -535,7 +535,7 @@ class tues
         t.column();//call table function
         e.test(60);//set spacing
         t.column();//call table function
-        e.next(1.0);//set spacing
+        e.next(1);//set spacing
         t.row();//call table function
 
     }
