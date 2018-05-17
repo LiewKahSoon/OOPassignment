@@ -169,10 +169,11 @@ class mon
         e.rest(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);//set spacing
         t.column();//call table function
 
         //row2
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -204,10 +205,11 @@ class mon
         e.rest(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);//set spacing
         t.column();//call table function
 
         //row3
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -239,10 +241,11 @@ class mon
         e.rest(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);//set spacing
         t.column();
 
         //row 4
+        e.next(1);
         t.column();
         e.rest(1.0);//set spacing
         q.test("Monday");//insert text
@@ -277,10 +280,11 @@ class mon
         e.rest(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);//set spacing
         t.column();//call table function
 
         //row 5
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -312,9 +316,10 @@ class mon
         e.rest(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);//set spacing
         t.column();//call table function
         //row 6
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -344,7 +349,7 @@ class mon
         e.rest(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);//set spacing
         t.column();//call table function
         }
 };
@@ -357,7 +362,8 @@ class tues
       emp e;
       table t;
       word q;
-      e.next(1.0);//set spacing
+      e.next(1);
+      //e.next(1.0);//set spacing
       t.row();//call table function
       e.next(1);
       t.column();//call table function
@@ -387,10 +393,11 @@ class tues
         t.column();//call table function
         t.column();//call table function
 
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row2
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -415,10 +422,11 @@ class tues
         e.next(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row3
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -440,10 +448,11 @@ class tues
         e.rest(1);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row 4
+        e.next(1);
         t.column();//call table function
         e.rest(1.0);//set spacing
         q.test("Tuesday");//insert text
@@ -469,10 +478,11 @@ class tues
         e.next(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row 5
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -496,10 +506,11 @@ class tues
         e.test(8);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row 6
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -522,7 +533,7 @@ class tues
         e.rest(1);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
         e.next(1.0);//set spacing
         t.row();//call table function
@@ -538,7 +549,7 @@ class wed
         emp e;
         table t;
         word q;
-        e.next(1.0);//set spacing
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -567,10 +578,11 @@ class wed
         e.test(21);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);//set spacing
         t.column();//call table function
 
         //row2
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -601,10 +613,11 @@ class wed
         e.test(21);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);
         t.column();//call table function
 
         //row3
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -631,10 +644,11 @@ class wed
         e.test(21);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);
         t.column();//call table function
 
         //row 4
+        e.next(1);
         t.column();//call table function
         e.rest(1.0);//set spacing
         q.test("Wednesday");//insert text
@@ -667,10 +681,11 @@ class wed
         e.test(21);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);
         t.column();//call table function
 
         //row 5
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -701,9 +716,10 @@ class wed
         e.test(21);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);
         t.column();//call table function
         //row 6
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -732,7 +748,7 @@ class wed
         e.test(21);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.rest(1.0);//set spacing
+        e.test(9);
         t.column();//call table function
     }
 };
@@ -745,9 +761,9 @@ public:
      emp e;
       table t;
       word q;
-      e.next(1.0);//set spacing
-      e.next(1.0);//set spacing
+      e.next(1);
       t.row();//call table function
+      e.next(1);
       t.column();//call table function
       e.test(20);//set spacing
         t.column();//call table function
@@ -775,10 +791,11 @@ public:
         t.column();//call table function
         t.column();//call table function
 
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row2
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -802,10 +819,11 @@ public:
         e.test(7);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row3
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -826,10 +844,11 @@ public:
         e.test(20);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row 4
+        e.next(1);
         t.column();//call table function
         e.rest(1.0);//set spacing
         q.test("Thursday");//insert text
@@ -855,10 +874,11 @@ public:
         e.next(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row 5
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -882,10 +902,11 @@ public:
         e.test(8);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
 
         //row 6
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -908,11 +929,11 @@ public:
         e.next(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(61);//set spacing
+        e.test(60);//set spacing
         t.column();//call table function
         e.next(1.0);//set spacing
+        e.next(1);
         t.row();//call table function
-        e.next(1);//set spacing
     }
 };
 
@@ -925,6 +946,7 @@ public:
       emp e;
       table t;
       word q;
+      e.next(1);
       t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -950,8 +972,9 @@ public:
         t.column();//call table function
         t.column();//call table function
         e.rest(1.0);//set spacing
-        e.next(1.0);//set spacing
         t.column();//call table function
+        //row2
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -976,9 +999,11 @@ public:
         e.test(7);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(11);//set spacing
+        e.rest(1.0);//set spacing
         t.column();//call table function
 
+        //row3
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -1000,9 +1025,10 @@ public:
         e.test(20);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(11);//set spacing
+        e.rest(1.0);//set spacing
         t.column();//call table function
-
+        //row5
+        e.next(1);
         t.column();//call table function
         e.rest(1.0);//set spacing
         q.test("Friday");//insert text
@@ -1029,8 +1055,10 @@ public:
         e.test(7);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(11);//set spacing
+        e.rest(1.0);//set spacing
         t.column();//call table function
+        //row6
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -1057,8 +1085,10 @@ public:
         e.test(8);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(11);//set spacing
+        e.rest(1.0);//set spacing
         t.column();//call table function
+        //row7
+        e.next(1);
         t.column();//call table function
         e.test(20);//set spacing
         t.column();//call table function
@@ -1082,9 +1112,9 @@ public:
         e.next(1.0);//set spacing
         t.column();//call table function
         t.column();//call table function
-        e.test(11);//set spacing
+        e.rest(1.0);//set spacing
         t.column();//call table function
-        e.next(1.0);//set spacing
+        e.next(1);
         t.row();//call table function
 
 
@@ -1108,4 +1138,6 @@ int main ()
  fri f;//declare class object
  f.six();//call class function
 }
+
+
 
